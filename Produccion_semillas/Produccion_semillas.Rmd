@@ -1,0 +1,485 @@
+---
+title: "Producciones de semillas certificadas en Argentina"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r paquetes, message=FALSE, warning=FALSE, include=FALSE}
+require(tidyverse)
+require(rvest)
+```
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+#Establecimientos vigentes
+path_estab_2018 <- here::here("data/INASE", "estableciemientos-vigentes-inscriptos-rncyfs-2018-septiembre.csv")
+
+df_establ18 <- read.csv(path_estab_2018,
+         header = T,
+         sep = ",",
+         encoding = "UTF-8")
+
+path_estab_2017 <- here::here("data/INASE", "estableciemientos-vigentes-inscriptos-rncyfs-2017-diciembre.csv")
+
+df_establ17 <- read.csv(path_estab_2017,
+                        header = T,
+                        sep = ",",
+                        encoding = "UTF-8")
+
+#Producción Nacional (año 2018)
+path_prod <- here::here("data/INASE", "produccionnacionalporespecie2018-09-28.csv")
+
+df_prod <- read.csv(path_prod,
+                       header = T,
+                       sep = ",",
+                       encoding = "UTF-8")
+
+#Producción por provincia (2018)
+path_prod_prov <- here::here("data/INASE", "produccion-nacional-especie-provincia-y-localidad-2017-2018-.csv")
+
+df_prod_prov <- read.csv(path_prod_prov,
+                         header = T,
+                         sep = ",",
+                         encoding = "UTF-8")
+
+#Superficie productiva
+path_supf <- here::here("data/INASE", "superficie-nacional-fiscalizada-por-especie-y-ubicacion-inase-2017-2018-.csv")
+
+df_supf <- read.csv(path_supf,
+                    header = T,
+                    sep = ",",
+                    encoding = "UTF-8")
+
+path_inase <- "https://www.argentina.gob.ar/inase/certificacionsemillas"
+
+certificacion <- read_html(path_inase, encoding = "UTF-8")
+
+path_sp_fiscal <- "https://www.argentina.gob.ar/inase/certificacionsemillas/que-es-la-certificacion-nacional-de-semillas/especies-de-fiscalizacion-obligatoria-e-identificadas"
+
+sp_fiscal <- read_html(path_sp_fiscal, encoding = "UTF-8")
+```
+
+#### Agro Analytics
+
+##### Chavarria,Ana Paula
+
+
+# Certificación de semillas
+
+
+
+```{r, include=FALSE}
+cc_inase <- certificacion %>% html_nodes("p")
+
+print(cc_inase[2:4] %>% html_text())
+```
+
+La Certificación de semillas es un proceso de control oficial. Comienza en el control del origen de la semilla que se siembra, continúa con la inspección de los lotes de producción; la cosecha y finaliza en el acondicionamiento; embolsado y rotulado de la semilla.                                                                                                                  
+Además, la Certificación recibe controles administrativos, controles de las exigencias del cultivo en campo y en laboratorio, de la semilla finalmente precintada en envases. Esto promueve la investigación para la mejora genética y el desarrollo de la tecnología. Garantiza calidad, pureza genética, poder germinativo, sanidad, homogeneidad del lote y trazabilidad de la semilla.
+
+El productor encontrará la Semilla Certificada adecuadamente identificada mediante un rótulo oficial en envases u otros contenedores autorizados.
+
+
+##Establecimientos habilitados por INASE
+
+```{r establecimiento, include=FALSE}
+df_establ17$periodo <- "2017"
+df_establ18$periodo <- "2018"
+
+colnames(df_establ17) <- colnames(df_establ18)
+
+establecimientos <- rbind(df_establ17,df_establ18)
+
+establecimientos <- establecimientos %>% mutate(provincia=case_when(provincia=="SANTIAGO DEL ESTERO" ~ "SGO.DEL ESTERO",
+                                                T ~ as.character(provincia)))
+```
+
+Toda persona física o jurídica, para poder comercializar, multiplicar semillas debe inscribirse en una o varias de las categorías del Registro Nacional de Comercio y Fiscalizacion de Semillas (RNCyFS)
+
+###Se necesita:
+
+1. Formulario ABM
+
+2. Documentacion obligariora a presentar
+
+     -Solicitud de Reinscripción/ modificacióm de la información completa firmada en original. 
+   
+     -Fotocopia de constancia de inscripción en el C.U.I.T. Actualizada, firmada en original por el/los titulares.
+   
+     -Formulario solicitud de alta de usuario. (ABM)
+
+3. Comprobante de pago de la inscripción de la/s categoría/s en las que se inscribió
+
+
+
+>Durante el 2017 hubo 2762 establecimientos habilitados por el INASE. Mientras que para el 2018 se incrementaron 13, dando un total de 2775.
+
+
+
+```{r, echo=FALSE}
+fig1 <- establecimientos %>% group_by(periodo, provincia) %>% 
+  count() %>% 
+  ggplot(aes(y=provincia, x=n))+
+  geom_col(aes(fill=periodo), position = "dodge")+
+  scale_fill_brewer(type = "qual", palette = "Set2")+
+  theme_classic()+
+  labs(title = "Establecimientos productivos",
+       subtitle = "por provincias",
+       x="",
+       y="",
+       caption = "Agro Analytics")+
+  theme(plot.background = element_rect(color=1, size = 1),
+        axis.text.x = element_text(size = rel(0.9)),
+        axis.text.y = element_text(size = rel(0.8)),
+        legend.title = element_text(size = rel(0.8)),
+        legend.text = element_text(size = rel(0.7)))
+
+fig1
+```
+
+Hubo un incremento en las provincias de Neuquén, Mendoza, Misiones, Córdoba y Buenos Aires. Siendo constante en Catamarca,, La Pampa, Santa Cruz y Santiago del Estero.
+
+
+Las treinta principales producciones de semillas en estos establecimientos fueron de:
+
+```{r , echo=FALSE}
+df_prod %>% arrange(desc(Unidades)) %>% 
+  top_n(30, Unidades) 
+```
+
+A estas especies se las pueden clasificar en:
+
+
+! [Especies de fiscalización obligatoria ] (https://www.argentina.gob.ar/sites/default/files/cuadros_cyc111.png)
+
+
+
+! [Especies bajo sistema de acreditación ] (https://www.argentina.gob.ar/sites/default/files/cuadros_cyc444.png)
+
+
+
+! [Especies con obligatoriedad de mención del cultivar ] (https://www.argentina.gob.ar/sites/default/files/inase_optativa_garbanzo.png)
+
+
+
+! [Especies nominadas optativas ] (https://www.argentina.gob.ar/sites/default/files/especies_optativa.png)
+
+
+
+
+##Producción por provincias
+
+En el siguiente cuadro se muestra el total en kilogramos de semillas para cada provincia durante el año 2018.
+
+Provincia | Total
+--- | ---  
+BUENOS AIRES | 300526597.
+SANTA FE  | 84089145.
+CORDOBA | 77685739.
+ENTRE RIOS  | 41370458.
+CHACO | 17739600 
+CATAMARCA | 14740841.
+SANTIAGO DEL ESTERO | 12036225. 
+SAN LUIS  | 9200793.
+TUCUMAN | 6475000.
+SALTA | 5417824.
+MENDOZA | 3547045.
+LA PAMPA  | 3399529.
+CORRIENTES | 2430965. 
+RIO NEGRO | 292439.
+SAN JUAN  | 87914.
+
+
+##### ¿Qué es lo que producen las principales provincias?
+
+
+```{r, echo=FALSE}
+df_prod_prov %>% filter(provincia==c("CORDOBA","BUENOS AIRES")) %>%
+  select(provincia, localidad,nombreVulgar,Unidades)
+```
+
+```{r, echo=FALSE}
+fig2 <- df_prod_prov %>% filter(provincia=="SANTA FE") %>% 
+  ggplot(aes(y=localidad, x=nombreVulgar, size=Unidades/1000))+
+  geom_point(color="#fdb462", shape=17, show.legend = F)+
+  theme_classic()+
+  theme(plot.background = element_rect(color=1, size = 1),
+        axis.text.x = element_text(angle = 90, size = rel(0.7)),
+        axis.text.y = element_text(size = rel(0.8)),
+        legend.title = element_text(size = rel(0.8)),
+        legend.text = element_text(size = rel(0.7)))+
+  labs(title = "Producción de semillas",
+       subtitle = "en provincia de Santa Fe",
+       x="",
+       y="",
+       caption = "Agro Anlaytics")
+
+fig2
+```
+
+```{r, echo=FALSE}
+fig3 <- df_prod_prov %>% filter(provincia=="ENTRE RIOS") %>% 
+  ggplot(aes(y=localidad, x=nombreVulgar, size=Unidades/1000))+
+  geom_point(color="#fdb462", shape=17, show.legend = F)+
+  theme_classic()+
+  theme(plot.background = element_rect(color=1, size = 1),
+        axis.text.x = element_text(angle = 90, size = rel(0.7)),
+        axis.text.y = element_text(size = rel(0.8)),
+        legend.title = element_text(size = rel(0.8)),
+        legend.text = element_text(size = rel(0.7)))+
+  labs(title = "Producción de semillas",
+       subtitle = "en provincia de Entre Ríos",
+       x="",
+       y="",
+       caption = "Agro Anlaytics")
+
+fig3
+```
+
+```{r, echo=FALSE}
+fig4 <- df_prod_prov %>% filter(provincia=="CHACO") %>% 
+  ggplot(aes(y=localidad, x=nombreVulgar, size=Unidades/1000))+
+  geom_point(color="#fdb462", shape=17, show.legend = F)+
+  theme_classic()+
+  theme(plot.background = element_rect(color=1, size = 1),
+        axis.text.x = element_text(angle = 90, size = rel(0.7)),
+        axis.text.y = element_text(size = rel(0.8)),
+        legend.title = element_text(size = rel(0.8)),
+        legend.text = element_text(size = rel(0.7)))+
+  labs(title = "Producción de semillas",
+       subtitle = "en provincia de Chaco",
+       x="",
+       y="",
+       caption = "Agro Anlaytics")
+
+fig4
+```
+
+La distribución de la superficie productiva se concentra, en su mayoría, dentro de las 100 hectáreas. Pocas provincias logran superar las 500 hectáreas.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+df_supf <- df_supf %>% mutate(superficie=case_when(is.na(superficie) ~ "0",
+                                        TRUE ~ as.character(superficie)))
+df_supf <- df_supf %>% mutate(superficie=as.numeric(superficie))
+
+fig6 <- ggplot(df_supf %>% filter(superficie<5000), aes(x=superficie))+
+  geom_histogram(aes(fill=nom_provincia), stat = "bin", bins=30, na.rm = T)+
+  theme_classic()+
+  theme(plot.background = element_rect(color=1, size = 1),
+        legend.position = "bottom",
+        legend.text = element_text(size = rel(0.5)),
+        legend.title = element_text(size = rel(0.6)),
+        legend.justification = "right",
+        axis.title.x= element_text(size = rel(0.9)))+
+  labs(title="Superficie de producción",
+       subtitle = "por provincias",
+       x="Hectáreas",
+       y="",
+       caption = "Agro Analytics")
+
+fig6
+```
+
+La superficie total de cada provincia se representa en el siguiente cuadro:
+
+```{r, echo=FALSE}
+df_supf %>% group_by(nom_provincia) %>% 
+  summarise(total=sum(superficie)) %>% 
+  arrange(desc(total))
+```
+
+
+##Producción por especies
+
+Las principales especies porducidas en nuestro país durante el 2018 fueron el trigo, la soja, el raigras, maíz, papa, girasol, cebada y avena.
+
+```{r, echo=FALSE}
+fig5 <- df_prod_prov %>% group_by(nombreVulgar) %>% 
+  summarise(total=sum(Unidades)) %>% 
+  arrange(desc(total)) %>% top_n(10, total) %>% 
+  ggplot(aes(y=nombreVulgar, x=total))+
+  geom_col(aes(fill=nombreVulgar))+
+  coord_polar()+
+  theme_classic()+
+  scale_fill_brewer(type = "qual", palette = "Set3")+
+  theme(plot.background = element_rect(color=1, size = 1), 
+        legend.position = "right",
+        legend.text = element_text(size = rel(0.5)),
+        legend.title = element_text(size = rel(0.5)),
+        axis.text.y = element_text(colour = "white", size = rel(0.1)))+
+  labs(title = "Principales semillas producidas",
+       x="",
+       y="",
+       caption = "Agro Analytics")
+
+fig5
+```
+
+
+Las tres principales especies fueron el trigo pan varidad, la soja y el maíz híbrido simple. La producción nacional de cada uno fue de 168193736 kg, 157519785 kg y 117194906 kg, respectivamente. Las provincias productoras responsables fueron Buenos Aires, Catamarca, Chaco, Córdoba, Entre Ríos, La Pampa, San Luis, Santa Fe y Tucumán. Sólo la provinica cordobesa se dedicó a la cosecha de simientes de las tres especies mencionadas.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+top_3 <- df_prod_prov %>% group_by(nombreVulgar) %>% 
+  summarise(total=sum(Unidades)) %>% 
+  arrange(desc(total)) %>% 
+  top_n(3, total) %>% select(nombreVulgar) %>% pull()
+
+fig8 <- df_prod_prov %>% filter(nombreVulgar==top_3) %>% 
+  ggplot(aes(x=provincia, y=nombreVulgar))+
+  geom_tile(aes(fill=Unidades))+
+  scale_fill_gradient(low="#fed976", high = "#e31a1c")+
+  theme_classic()+
+  theme(plot.background = element_rect(color = 1, size = 1),
+        legend.position = "bottom",
+        legend.title = element_text(size = rel(0.7)),
+        legend.text = element_text(size = rel(0.6)),
+        axis.text.x = element_text(size = rel(0.8), angle = 90),
+        axis.text.y = element_text(size = rel(0.9)),
+        plot.subtitle = element_text(face = "bold", hjust = 0.5)
+        )+
+  labs(title = "Provincias productoras de",
+       subtitle = "las tres principlaes especies",
+       x="",
+       y="",
+       caption = "Agro Analytics")
+
+fig8
+
+```
+
+En Argentina, la producción media de soja es de 11719900 tn mientras que de trigo pan es de 10496200 tn. 
+
+Si bien la mayor producción de semillas en el país es de trigo pan, la mayor superficie sembrada es la de soja. No obstante, hay que recordar que las densidades de siembra son ditintas. Para la soja, en zona núcleo, la densidad de siembra puede ser de entre 20-25 pl/m² (todo varía según grupo de madurez, momento y lugar de siembra); en cuanto a trigo este puede variar entre 150-250 pl/m².
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+path_trigo <- here::here("data", "serie-de-tiempo-trigo.csv")
+df_trigo <- read.csv(path_trigo,
+                     header = T,
+                     sep = ",",
+                     encoding = "UTF-8")
+
+df_trigo$cultivo="Trigo"
+colnames(df_trigo) <- c("indice_tiempo", "supf_sembrada", "supf_cosechada", "produccion_tn", "rendimiento_kgha","cultivo")
+
+path_soja <- here::here("data", "soja-anual-1969-2020.csv")
+df_soja <- read.csv(path_soja,
+                     header = T,
+                     sep = ",",
+                     encoding = "UTF-8")
+df_soja$cultivo="Soja"
+colnames(df_soja) <- c("indice_tiempo", "supf_sembrada", "supf_cosechada", "produccion_tn", "rendimiento_kgha","cultivo")
+
+
+df_ev_cultivos <- rbind(df_trigo,df_soja)
+
+
+fig9 <- ggplot(df_ev_cultivos,aes(x=indice_tiempo, y=supf_sembrada/1000))+
+  geom_area(aes(fill=cultivo))+
+  scale_fill_brewer(type = "qual", palette = "Set3")+
+  theme_classic()+
+  theme(plot.background = element_rect(size = 1, color = 1),
+        legend.text = element_text(size = rel(0.7)),
+        legend.title = element_text(size = rel(0.8)),
+        axis.title.y = element_text(size = rel(0.9)))+
+  labs(title = "Evolución de superficie sembrada",
+       x="",
+       y="Mil hectáreas",
+       caption = "Agro Analytics")
+
+fig9
+
+```
+
+Por lo tanto, si trabajamos sobre una superficie de 10000m², es decir 1 hectárea, la cantidad de semillas empleadas para cada cultivo será distinta.
+
+
+$$ ðs (kg/ha)= (nºpl/m² * PMS * FC) / VC  $$
+
+
+Si consideramos que el poder germinativo para ambas especies es de 90 al igual que la pureza, el valor cultural sería de 81 y tomando el factor de correción igual 1, lo que influye en la cantidad de semillas para siembra será el número de plantas y el peso de mil semillas.
+
+Para soja habíamos comentado que el nº plantas es entre 20 a 25 y el PMS ronda entre los 170 gramos. Para el trigo el nº de plantas varía entre 150 a 250 plantas y el peso de las mil semillas es de 35-50 gr.
+
+```{r}
+densidad <- function (num_pl, pms, fc, vc) {
+  calculo <- (num_pl*pms*fc)/vc
+  
+  return(calculo)
+}
+```
+
+Tomando los siguientes valores, realizamos el cálculo para soja.
+
+```{r}
+num_pl_soja <- 20
+pms_soja <- 170
+fc <- 1
+vc <- 81
+
+densidad(num_pl_soja, pms_soja, fc, vc)
+```
+
+Y ahora para trigo.
+
+```{r}
+num_pl_trigo <- 200
+pms_trigo <- 40
+
+densidad(num_pl_trigo,pms_trigo, fc, vc)
+```
+
+Por lo tanto, la mayor producción de semillas certificadas de trigo pan fueron de 168193736 kg por lo que alcanza para 1702962 hectáreas (considerando igual densidad, pureza y poder germinativo) y para soja 3752677 hectáreas.
+
+
+
+
+En cuanto a mayor superficie productiva,las principales diez provincias con mayor superficie fueron Buenos Aires, Córdoba, Santa Fe, Entre Ríos, Santiago del Estero, Chaco, Salta, Mendoza, Catamarca y Tucumán; quienes produjeron simientes como el trigo, sorgo, papa, maíz, lino, girasol, cebada, algodonero, achicoria.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+top_10_supf <- df_supf %>% group_by(nom_provincia) %>% 
+  summarise(total=sum(superficie)) %>% 
+  arrange(desc(total)) %>% 
+  top_n(10, total) %>% 
+  select(nom_provincia) %>% pull()
+
+fig7 <- df_prod_prov %>% dplyr::filter(provincia==top_10_supf) %>% 
+  select(provincia, nombreVulgar, Unidades) %>% 
+  ggplot(aes(x=Unidades/1000, y=nombreVulgar))+
+  geom_point(aes(color=provincia))+
+  scale_color_brewer(type = "qual", palette = "Set3")+
+  theme_classic()+
+  ggtitle("Especies porducidas por las principales provincias",
+          subtitle = "con mayor superficie productiva")+
+  theme(plot.background = element_rect(color=1, size = 1),
+        legend.position = "right",
+        legend.justification = "right",
+        legend.text = element_text(size = rel(0.6)),
+        legend.title = element_text(size = rel(0.7)),
+        axis.text.y = element_text(size = rel(0.9)),
+        axis.title.x = element_text(size = rel(0.9)),
+        axis.text.x = element_text(size = rel(0.9), angle = 60),
+        plot.title =  element_text(hjust = 0.5),
+        plot.subtitle = element_text(face = "bold", hjust = 0.5))+
+  labs(x="Toneladas",
+       y="",
+       caption = "Agro Analytics")
+
+fig7
+```
+
+
+####Datos:
+
+[^1] [Establecimientos] (https://datos.gob.ar/dataset/agroindustria-inase---establecimientos-vigentes-inscriptos-rncyfs)
+
+[^2] [Clasificación de semillas] (https://www.argentina.gob.ar/inase/certificacionsemillas/que-es-la-certificacion-nacional-de-semillas/especies-de-fiscalizacion-obligatoria-e-identificadas)
+
+[^3] [Producción por especie y ubicación] (https://datos.gob.ar/dataset/agroindustria-inase---produccion-semillas-por-especies-ubicacion)
+
+[^4] [Superficie productiva] (https://datos.gob.ar/dataset/agroindustria-inase---produccion-semillas-por-especies-ubicacion)
+
+[^5] [Soja]  (https://inta.gob.ar/sites/default/files/inta_25_de_mayo_densidad_de_siembra_en_soja.pdf)
+
+[^6] [Trigo] (https://rdu.unc.edu.ar/handle/11086/6565)
