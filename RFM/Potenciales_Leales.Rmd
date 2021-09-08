@@ -1,0 +1,152 @@
+---
+title: "Análisis de Potenciales Leales en San Pablo"
+output: html_notebook
+---
+
+Paquetes
+
+```{r}
+require(tidyverse)
+```
+
+
+Exportamos la base de datos obtenida de la ShinyApp-RFM.
+
+```{r}
+df_pl <- read.table(here::here("data", "potenciales_leales.txt"),
+           header = T,
+           sep = ",")
+```
+
+```{r}
+head(df_pl)
+```
+
+Seleccionamos los clientes que realizaron compras en el último año
+
+```{r}
+df_pl %>% filter(Semestre %in% c("2019_S1","2019_S2") )
+```
+
+
+```{r}
+cliente_19 <- df_pl %>% filter(Semestre %in% c("2019_S1","2019_S2") ) %>% 
+  select(Id_cliente) %>% 
+  unique() %>% 
+  pull()
+```
+
+¿Quiénes son los que realizaron la última compra en 2019 y estan en un nivel de "Peligro"?
+
+```{r}
+df_pl %>% filter(Semestre %in% c("2019_S1","2019_S2") & Value=="Average" )
+```
+
+```{r}
+cliente_average <- df_pl %>% filter(Semestre %in% c("2019_S1","2019_S2") & Value=="Average" ) %>% 
+  select(Id_cliente) %>% 
+  unique() %>% pull()
+
+```
+
+
+¿Cómo fue el comportamiento de compra de estos tres clientes?
+
+```{r}
+df_pl %>% dplyr::filter(Id_cliente %in% cliente_average)
+
+```
+
+
+¿Cuánto corresponde el total de compra y ganacia de los clientes, con respecto a todo el grupo segmentadoen el 2019?
+
+
+```{r}
+df_pl %>% filter(Id_cliente %in% cliente_19) %>% 
+  group_by(Id_cliente, Value) %>% 
+  summarise(Total=sum(Total),
+            Ganancia=sum(Ganancia)) %>% 
+  ggplot(aes(x=Id_cliente))+
+  geom_col(aes(y=Total,fill="Venta" ),fill="#fc4e2a")+
+  geom_col(aes(y=Ganancia, fill="Ganancia"), fill="#78c679")+
+  geom_text(aes(y=Total,label=Value), alpha=0.8, size=2.5, vjust=-0.9)+
+  theme_light()+
+  labs(x="ID", y="Total")+
+  theme(axis.text.x = element_text(size = rel(0.9), angle = 90))
+
+```
+
+Y cómo es con respecto a todo el grupo segmentado durante todos los años de análisis?
+
+```{r}
+df_pl %>%  
+  group_by(Id_cliente, Value) %>% 
+  summarise(Total=sum(Total),
+            Ganancia=sum(Ganancia)) %>% 
+  ggplot(aes(x=Id_cliente))+
+  geom_col(aes(y=Total,fill="Venta" ),fill="#fc4e2a")+
+  geom_col(aes(y=Ganancia, fill="Ganancia"), fill="#78c679")+
+  geom_text(aes(y=Total,label=Value), alpha=0.8, size=2.5, vjust=-0.9)+
+  theme_light()+
+  labs(x="ID", y="Total")+
+  theme(axis.text.x = element_text(size = rel(0.9), angle = 90))
+```
+
+Asignamos GIFTCard con un monto correspondiente al 20% del total de su mayor monto de compra
+
+```{r}
+df_pl %>% filter(Id_cliente %in% cliente_average) %>% 
+  group_by(Id_cliente) %>% 
+  summarise(MontoGIFT=max(Total)*0.20)
+```
+
+¿Qué pasó con los clientes que estaban en peligro?
+
+```{r}
+df_pl %>% filter(Value=="Average" & Semestre!="2019_S2")
+```
+
+```{r}
+df_pl %>% filter(Value=="Average") %>% 
+  group_by(Id_cliente, Semestre) %>% 
+  summarise(Total=sum(Total)) %>% 
+  ggplot(aes(x=Id_cliente, y=Total))+
+  geom_col(fill="#fc4e2a")+
+  geom_text(aes(label=Semestre), size=3, vjust=2)+
+  theme_light()
+```
+
+Cada uno realizó una única compra en cada año. ¿Seguirán activos en nuestra empresa?
+
+```{r}
+liente_perdido <- df_pl %>% filter(Value=="Average" & Semestre!="2019_S2") %>% 
+  select(Id_cliente) %>% unique() %>% pull()
+```
+
+Subimos base de datos de nuestra supertienda
+
+```{r}
+supertienda <- read.csv(here::here("data", "Supertienda_rfm.csv"),
+         header = T,
+         sep = ",",
+         encoding = "UTF-8")
+```
+
+Buscamos los clientes en nustra base de datos
+
+```{r}
+supertienda %>% filter(Id_cliente %in% liente_perdido)
+
+
+```
+
+```{r}
+
+supertienda %>% filter(Id_cliente %in% liente_perdido & Estado=="São Paulo")
+
+```
+
+```{r}
+supertienda %>% filter(Id_cliente %in% liente_perdido & Semestre %in% c("2019_S1", "2019_S2"))
+```
+

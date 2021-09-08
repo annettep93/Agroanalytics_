@@ -1,0 +1,46 @@
+"Id_cliente","segment","Value","Subcategoria","Semestre","Total","Ganancia"
+"AA-10225","Potential Loyalist","Average","Sobres","2018_S2",493.8,113.4
+"AA-11005","Potential Loyalist","Average","Almacenamiento","2016_S2",639.6,230
+"AA-11005","Potential Loyalist","Average","Accesorios","2016_S2",735.2,132
+"AA-11005","Potential Loyalist","Average","Grapas","2016_S2",184.8,49.6
+"AA-11005","Potential Loyalist","Average","Papel","2016_S2",395.6,35.6
+"AA-11005","Potential Loyalist","Average","Accesorios","2016_S2",2123.2,593.6
+"AC-10930","Potential Loyalist","Good","Etiquetas","2019_S1",131.4,46.8
+"AC-10930","Potential Loyalist","Good","Teléfonos","2019_S1",488.6,171
+"AF-10195","Potential Loyalist","Good","Sobres","2017_S1",452,148.8
+"AF-10195","Potential Loyalist","Good","Sillas","2017_S1",1774.8,35.2
+"BS-12130","Potential Loyalist","Good","Mobiliario","2017_S1",529,111
+"BS-12130","Potential Loyalist","Good","Papel","2017_S1",281.6,11.2
+"CC-12610","Potential Loyalist","Average","Mesas","2019_S2",5248.96,-1246.64
+"CL-12205","Potential Loyalist","Very Good","Accesorios","2019_S1",691.8,214.4
+"CL-12205","Potential Loyalist","Very Good","Arte","2019_S1",532.8,74.4
+"CL-12205","Potential Loyalist","Very Good","Etiquetas","2019_S1",454.8,99.6
+"CL-12205","Potential Loyalist","Very Good","Arte","2019_S1",676.8,175.2
+"DA-13555","Potential Loyalist","Good","Sillas","2019_S2",2212,597.2
+"DA-13555","Potential Loyalist","Good","Grapas","2019_S1",189.2,47.2
+"DB-13210","Potential Loyalist","Very Good","Sillas","2016_S1",3817.6,877.6
+"EM-13750","Potential Loyalist","Average","Grapas","2019_S2",186.4,82
+"EM-13750","Potential Loyalist","Average","Teléfonos","2019_S2",17037.6,6814.4
+"EM-13750","Potential Loyalist","Average","Almacenamiento","2019_S2",970.2,358.8
+"EM-13750","Potential Loyalist","Average","Máquinas","2019_S2",1987.2,655.2
+"ER-14305","Potential Loyalist","Very Good","Sillas","2017_S2",854.6,410.2
+"FB-14980","Potential Loyalist","Very Good","Carpetas","2019_S2",240,38.4
+"GO-15025","Potential Loyalist","Very Good","Papel","2019_S1",840,92
+"IE-16255","Potential Loyalist","Very Good","Suministros","2019_S2",707.4,332.4
+"LS-18100","Potential Loyalist","Good","Librerías","2017_S1",2923.4,467.6
+"LS-18100","Potential Loyalist","Good","Teléfonos","2017_S1",443.4,137.4
+"LS-18100","Potential Loyalist","Good","Grapas","2017_S1",198.8,97.2
+"MA-18250","Potential Loyalist","Average","Grapas","2018_S1",147.6,33.6
+"MA-18250","Potential Loyalist","Average","Librerías","2018_S1",2256,428.4
+"MA-18250","Potential Loyalist","Average","Teléfonos","2018_S1",2597.4,207.6
+"MR-18430","Potential Loyalist","Average","Copiadoras","2019_S2",1763.8652,261.4652
+"MR-18430","Potential Loyalist","Average","Papel","2019_S2",993,158
+"MR-18430","Potential Loyalist","Average","Etiquetas","2019_S2",120.4,30
+"MR-18430","Potential Loyalist","Average","Mobiliario","2019_S2",4399.2,1978.8
+"NB-19135","Potential Loyalist","Very Good","Grapas","2019_S2",210.6,31.2
+"RR-20545","Potential Loyalist","Very Good","Librerías","2019_S2",5313.6,2550.4
+"RS-20620","Potential Loyalist","Good","Sillas","2017_S1",3338,1568
+"SA-20920","Potential Loyalist","Very Good","Copiadoras","2017_S1",15162.8136,6806.0136
+"SA-20920","Potential Loyalist","Very Good","Suministros","2017_S1",800,192
+"UN-21385","Potential Loyalist","Average","Sillas","2017_S2",1855.2,315.2
+"VA-21595","Potential Loyalist","Very Good","Teléfonos","2019_S2",4084.2,325.8

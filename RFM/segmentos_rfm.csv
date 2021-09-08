@@ -1,0 +1,126 @@
+rfm_score	segment	Value
+111	Lost	Bad
+112	Lost	Bad
+113	Lost	Bad
+114	At Risk	Bad
+115	At Risk	Bad
+121	Lost	Bad
+122	At Risk	Bad
+123	At Risk	Bad
+124	At Risk	Bad
+125	At Risk	Bad
+131	About To Sleep	Bad
+132	At Risk	Bad
+133	At Risk	Bad
+134	At Risk	Bad
+135	At Risk	Bad
+141	About To Sleep	Bad
+142	At Risk	Bad
+143	At Risk	Bad
+144	Can't Lose Them	Bad
+145	Can't Lose Them	Bad
+151	At Risk	Low
+152	At Risk	Low
+153	At Risk	Low
+154	Can't Lose Them	Low
+155	Can't Lose Them	Low
+211	About To Sleep	Low
+212	About To Sleep	Low
+213	About To Sleep	Low
+214	Can't Lose Them	Low
+215	Can't Lose Them	Low
+221	About To Sleep	Low
+222	Hibernating	Low
+223	Hibernating	Low
+224	Can't Lose Them	Low
+225	Can't Lose Them	Low
+231	Hibernating	Low
+232	Hibernating	Low
+233	Hibernating	Low
+234	Can't Lose Them	Low
+235	At Risk	Low
+241	At Risk	Low
+242	At Risk	Low
+243	At Risk	Low
+244	Can't Lose Them	Low
+245	At Risk	Low
+251	At Risk	Average
+252	At Risk	Average
+253	At Risk	Average
+254	Need Attention	Average
+255	Can't Lose Them	Average
+311	About To Sleep	Average
+312	About To Sleep	Average
+313	Potential Loyalist	Average
+314	Need Attention	Average
+315	Need Attention	Average
+321	About To Sleep	Average
+322	Hibernating	Average
+323	Hibernating	Average
+324	Potential Loyalist	Average
+325	Potential Loyalist	Average
+331	Potential Loyalist	Average
+332	Hibernating	Average
+333	Hibernating	Average
+334	Need Attention	Average
+335	Loyal Customers	Average
+341	Need Attention	Average
+342	Need Attention	Average
+343	Need Attention	Average
+344	Need Attention	Average
+345	Loyal Customers	Average
+351	Promising	Good
+352	Promising	Good
+353	Promising	Good
+354	Promising	Good
+355	Promising	Good
+411	Promising	Good
+412	Promising	Good
+413	Promising	Good
+414	Promising	Good
+415	Promising	Good
+421	Potential Loyalist	Good
+422	Potential Loyalist	Good
+423	Potential Loyalist	Good
+424	Potential Loyalist	Good
+425	Potential Loyalist	Good
+431	Potential Loyalist	Good
+432	Potential Loyalist	Good
+433	Need Attention	Good
+434	Need Attention	Good
+435	Loyal Customers	Good
+441	Potential Loyalist	Good
+442	Potential Loyalist	Good
+443	Need Attention	Good
+444	Need Attention	Good
+445	Loyal Customers	Good
+451	Potential Loyalist	Very Good
+452	Potential Loyalist	Very Good
+453	Potential Loyalist	Very Good
+454	Champions	Very Good
+455	Champions	Very Good
+511	New Customers	Very Good
+512	Potential Loyalist	Very Good
+513	New Customers	Very Good
+514	New Customers	Very Good
+515	New Customers	Very Good
+521	Potential Loyalist	Very Good
+522	Potential Loyalist	Very Good
+523	Potential Loyalist	Very Good
+524	Champions	Very Good
+525	Champions	Very Good
+531	Potential Loyalist	Very Good
+532	Potential Loyalist	Very Good
+533	Potential Loyalist	Very Good
+534	Champions	Very Good
+535	Champions	Very Good
+541	Loyal Customers	Very Good
+542	Loyal Customers	Very Good
+543	Loyal Customers	Very Good
+544	Champions	Very Good
+545	Champions	Very Good
+551	Loyal Customers	Very Good
+552	Loyal Customers	Very Good
+553	Loyal Customers	Very Good
+554	Champions	Very Good
+555	Champions	Very Good
