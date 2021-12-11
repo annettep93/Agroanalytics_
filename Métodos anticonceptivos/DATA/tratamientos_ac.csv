@@ -1,0 +1,349 @@
+"","jurisdiccion_id","jurisdicion_nombre","trimestre","anio","tipo_dato","Tratamiento","Cantidad","Tipo","Personas","Relacion_pobl"
+"1",6,"Buenos Aires",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",323410,"Pastilla combinada",10077275,0.0320930013322054
+"2",6,"Buenos Aires",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",31971,"Pastilla combinada",10077275,0.00317258385823549
+"3",6,"Buenos Aires",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",48713,"Minipildora",10077275,0.00483394568472132
+"4",6,"Buenos Aires",1,2021,"consolidado","Desogestrel(comp:0.075mg)",50764,"Minipildora",10077275,0.00503747292794927
+"5",6,"Buenos Aires",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",57720,"Anticonceptivo inyectable",10077275,0.00572773889766827
+"6",6,"Buenos Aires",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",20250,"Anticonceptivo inyectable",10077275,0.00200947180661439
+"7",6,"Buenos Aires",1,2021,"consolidado","DIUT(cobre_380mm)",11000,"DIU",10077275,0.00109156493198806
+"8",6,"Buenos Aires",1,2021,"consolidado","DIUM(385mm)",4100,"DIU",10077275,0.000406856020104641
+"9",6,"Buenos Aires",1,2021,"consolidado","Levonorgestrel(52mg)",300,"Sist. de liberación intrauterina",10077275,2.97699526905835e-05
+"10",6,"Buenos Aires",1,2021,"consolidado","Etonogestrel(68mg)",50,"Implante",10077275,4.96165878176392e-06
+"11",6,"Buenos Aires",1,2021,"consolidado","Condon_latex",1415952,"Preservativo",10077275,0.140509413507124
+"12",6,"Buenos Aires",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",30811,"Pastilla del día después",10077275,0.00305747337449856
+"13",6,"Buenos Aires",1,2021,"consolidado","Misoprostol(200mcg)",3509,"Tratamiento abortivo",10077275,0.000348209213304192
+"14",6,"Buenos Aires",1,2021,"consolidado","Test_embarazo",46211,"Test de embarazo",10077275,0.00458566427928185
+"15",10,"Catamarca",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",19622,"Pastilla combinada",231404,0.0847954227238941
+"16",10,"Catamarca",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",2100,"Pastilla combinada",231404,0.00907503759658433
+"17",10,"Catamarca",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",1764,"Minipildora",231404,0.00762303158113084
+"18",10,"Catamarca",1,2021,"consolidado","Desogestrel(comp:0.075mg)",2784,"Minipildora",231404,0.0120309069851861
+"19",10,"Catamarca",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",5310,"Anticonceptivo inyectable",231404,0.0229468807799347
+"20",10,"Catamarca",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",1950,"Anticonceptivo inyectable",231404,0.00842682062539973
+"21",10,"Catamarca",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",231404,0.00216072323728198
+"22",10,"Catamarca",1,2021,"consolidado","DIUM(385mm)",500,"DIU",231404,0.00216072323728198
+"23",10,"Catamarca",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",231404,0.000216072323728198
+"24",10,"Catamarca",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",231404,0
+"25",10,"Catamarca",1,2021,"consolidado","Condon_latex",82512,"Preservativo",231404,0.356571191509222
+"26",10,"Catamarca",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1875,"Pastilla del día después",231404,0.00810271213980744
+"27",10,"Catamarca",1,2021,"consolidado","Misoprostol(200mcg)",250,"Tratamiento abortivo",231404,0.00108036161864099
+"28",10,"Catamarca",1,2021,"consolidado","Test_embarazo",2458,"Test de embarazo",231404,0.0106221154344782
+"29",22,"Chaco",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",58412,"Pastilla combinada",661406,0.0883148928192366
+"30",22,"Chaco",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",5321,"Pastilla combinada",661406,0.00804498296054163
+"31",22,"Chaco",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",5591,"Minipildora",661406,0.00845320423461535
+"32",22,"Chaco",1,2021,"consolidado","Desogestrel(comp:0.075mg)",8624,"Minipildora",661406,0.0130388898800434
+"33",22,"Chaco",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",16960,"Anticonceptivo inyectable",661406,0.0256423437344082
+"34",22,"Chaco",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",5400,"Anticonceptivo inyectable",661406,0.00816442548147431
+"35",22,"Chaco",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",661406,0.00151193064471747
+"36",22,"Chaco",1,2021,"consolidado","DIUM(385mm)",500,"DIU",661406,0.000755965322358733
+"37",22,"Chaco",1,2021,"consolidado","Levonorgestrel(52mg)",100,"Sist. de liberación intrauterina",661406,0.000151193064471747
+"38",22,"Chaco",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",661406,0
+"39",22,"Chaco",1,2021,"consolidado","Condon_latex",236592,"Preservativo",661406,0.357710695094995
+"40",22,"Chaco",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",4661,"Pastilla del día después",661406,0.00704710873502811
+"41",22,"Chaco",1,2021,"consolidado","Misoprostol(200mcg)",180,"Tratamiento abortivo",661406,0.000272147516049144
+"42",22,"Chaco",1,2021,"consolidado","Test_embarazo",6787,"Test de embarazo",661406,0.0102614732856974
+"43",26,"Chubut",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",16512,"Pastilla combinada",335782,0.0491747621969016
+"44",26,"Chubut",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",1923,"Pastilla combinada",335782,0.00572692997242258
+"45",26,"Chubut",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",1813,"Minipildora",335782,0.00539933647426009
+"46",26,"Chubut",1,2021,"consolidado","Desogestrel(comp:0.075mg)",2756,"Minipildora",335782,0.00820770619032587
+"47",26,"Chubut",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",5130,"Anticonceptivo inyectable",335782,0.0152777695052147
+"48",26,"Chubut",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",3100,"Anticonceptivo inyectable",335782,0.00923218040276132
+"49",26,"Chubut",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",335782,0.00148906135528408
+"50",26,"Chubut",1,2021,"consolidado","DIUM(385mm)",500,"DIU",335782,0.00148906135528408
+"51",26,"Chubut",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",335782,0.000148906135528408
+"52",26,"Chubut",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",335782,0
+"53",26,"Chubut",1,2021,"consolidado","Condon_latex",82944,"Preservativo",335782,0.247017410105366
+"54",26,"Chubut",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1987,"Pastilla del día después",335782,0.00591752982589895
+"55",26,"Chubut",1,2021,"consolidado","Misoprostol(200mcg)",453,"Tratamiento abortivo",335782,0.00134908958788738
+"56",26,"Chubut",1,2021,"consolidado","Test_embarazo",2593,"Test de embarazo",335782,0.00772227218850326
+"57",2,"CABA",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",42418,"Pastilla combinada",1943569,0.0218247975760058
+"58",2,"CABA",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",6128,"Pastilla combinada",1943569,0.00315296241090489
+"59",2,"CABA",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",4248,"Minipildora",1943569,0.00218566976526174
+"60",2,"CABA",1,2021,"consolidado","Desogestrel(comp:0.075mg)",16092,"Minipildora",1943569,0.00827961343281355
+"61",2,"CABA",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",3050,"Anticonceptivo inyectable",1943569,0.00156927796234659
+"62",2,"CABA",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",3600,"Anticonceptivo inyectable",1943569,0.00185226251293368
+"63",2,"CABA",1,2021,"consolidado","DIUT(cobre_380mm)",1500,"DIU",1943569,0.0007717760470557
+"64",2,"CABA",1,2021,"consolidado","DIUM(385mm)",1000,"DIU",1943569,0.0005145173647038
+"65",2,"CABA",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",1943569,2.572586823519e-05
+"66",2,"CABA",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",1943569,0
+"67",2,"CABA",1,2021,"consolidado","Condon_latex",398736,"Preservativo",1943569,0.205156595932534
+"68",2,"CABA",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",8116,"Pastilla del día después",1943569,0.00417582293193604
+"69",2,"CABA",1,2021,"consolidado","Misoprostol(200mcg)",1080,"Tratamiento abortivo",1943569,0.000555678753880104
+"70",2,"CABA",1,2021,"consolidado","Test_embarazo",11106,"Test de embarazo",1943569,0.0057142298524004
+"71",14,"Córdoba",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",98424,"Pastilla combinada",2133846,0.0461251655461547
+"72",14,"Córdoba",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",8969,"Pastilla combinada",2133846,0.00420320866641735
+"73",14,"Córdoba",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",11323,"Minipildora",2133846,0.00530638106030145
+"74",14,"Córdoba",1,2021,"consolidado","Desogestrel(comp:0.075mg)",14192,"Minipildora",2133846,0.00665090170518397
+"75",14,"Córdoba",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",19510,"Anticonceptivo inyectable",2133846,0.00914311529510565
+"76",14,"Córdoba",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",4700,"Anticonceptivo inyectable",2133846,0.00220259568872355
+"77",14,"Córdoba",1,2021,"consolidado","DIUT(cobre_380mm)",1500,"DIU",2133846,0.000702956070869219
+"78",14,"Córdoba",1,2021,"consolidado","DIUM(385mm)",1000,"DIU",2133846,0.000468637380579479
+"79",14,"Córdoba",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",2133846,2.3431869028974e-05
+"80",14,"Córdoba",1,2021,"consolidado","Etonogestrel(68mg)",200,"Implante",2133846,9.37274761158959e-05
+"81",14,"Córdoba",1,2021,"consolidado","Condon_latex",386784,"Preservativo",2133846,0.181261440610053
+"82",14,"Córdoba",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",8467,"Pastilla del día después",2133846,0.00396795270136645
+"83",14,"Córdoba",1,2021,"consolidado","Misoprostol(200mcg)",1223,"Tratamiento abortivo",2133846,0.000573143516448703
+"84",14,"Córdoba",1,2021,"consolidado","Test_embarazo",12487,"Test de embarazo",2133846,0.00585187497129596
+"85",18,"Corrientes",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",44666,"Pastilla combinada",623110,0.0716823674792573
+"86",18,"Corrientes",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",4069,"Pastilla combinada",623110,0.00653014716502704
+"87",18,"Corrientes",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",5085,"Minipildora",623110,0.00816067788993918
+"88",18,"Corrientes",1,2021,"consolidado","Desogestrel(comp:0.075mg)",6240,"Minipildora",623110,0.0100142831923737
+"89",18,"Corrientes",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",10050,"Anticonceptivo inyectable",623110,0.0161287734107942
+"90",18,"Corrientes",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",2250,"Anticonceptivo inyectable",623110,0.00361091942032707
+"91",18,"Corrientes",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",623110,0.00080242653785046
+"92",18,"Corrientes",1,2021,"consolidado","DIUM(385mm)",0,"DIU",623110,0
+"93",18,"Corrientes",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",623110,8.0242653785046e-05
+"94",18,"Corrientes",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",623110,0
+"95",18,"Corrientes",1,2021,"consolidado","Condon_latex",176112,"Preservativo",623110,0.28263388486784
+"96",18,"Corrientes",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",3620,"Pastilla del día después",623110,0.00580956813403733
+"97",18,"Corrientes",1,2021,"consolidado","Misoprostol(200mcg)",183,"Tratamiento abortivo",623110,0.000293688112853268
+"98",18,"Corrientes",1,2021,"consolidado","Test_embarazo",5349,"Test de embarazo",623110,0.00858435910192422
+"99",30,"Entre Ríos",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",54004,"Pastilla combinada",784742,0.0688175221920071
+"100",30,"Entre Ríos",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",4843,"Pastilla combinada",784742,0.00617145507695523
+"101",30,"Entre Ríos",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",5935,"Minipildora",784742,0.00756299522645659
+"102",30,"Entre Ríos",1,2021,"consolidado","Desogestrel(comp:0.075mg)",7384,"Minipildora",784742,0.00940946196329494
+"103",30,"Entre Ríos",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",12500,"Anticonceptivo inyectable",784742,0.0159288020776255
+"104",30,"Entre Ríos",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",5550,"Anticonceptivo inyectable",784742,0.00707238812246573
+"105",30,"Entre Ríos",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",784742,0.00127430416621004
+"106",30,"Entre Ríos",1,2021,"consolidado","DIUM(385mm)",500,"DIU",784742,0.00063715208310502
+"107",30,"Entre Ríos",1,2021,"consolidado","Levonorgestrel(52mg)",0,"Sist. de liberación intrauterina",784742,0
+"108",30,"Entre Ríos",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",784742,0
+"109",30,"Entre Ríos",1,2021,"consolidado","Condon_latex",203904,"Preservativo",784742,0.259835716706892
+"110",30,"Entre Ríos",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",4598,"Pastilla del día después",784742,0.00585925055623377
+"111",30,"Entre Ríos",1,2021,"consolidado","Misoprostol(200mcg)",329,"Tratamiento abortivo",784742,0.000419246070683103
+"112",30,"Entre Ríos",1,2021,"consolidado","Test_embarazo",6209,"Test de embarazo",784742,0.00791215456799814
+"113",34,"Formosa",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",21764,"Pastilla combinada",326120,0.0667361707346989
+"114",34,"Formosa",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",2146,"Pastilla combinada",326120,0.00658039985281491
+"115",34,"Formosa",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",1776,"Minipildora",326120,0.00544584815405372
+"116",34,"Formosa",1,2021,"consolidado","Desogestrel(comp:0.075mg)",3176,"Minipildora",326120,0.00973874647369067
+"117",34,"Formosa",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",6120,"Anticonceptivo inyectable",326120,0.0187660983686986
+"118",34,"Formosa",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",1700,"Anticonceptivo inyectable",326120,0.00521280510241629
+"119",34,"Formosa",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",326120,0.00153317797129891
+"120",34,"Formosa",1,2021,"consolidado","DIUM(385mm)",200,"DIU",326120,0.000613271188519563
+"121",34,"Formosa",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",326120,0.000153317797129891
+"122",34,"Formosa",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",326120,0
+"123",34,"Formosa",1,2021,"consolidado","Condon_latex",93744,"Preservativo",326120,0.28745247148289
+"124",34,"Formosa",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1899,"Pastilla del día después",326120,0.00582300993499325
+"125",34,"Formosa",1,2021,"consolidado","Misoprostol(200mcg)",40,"Tratamiento abortivo",326120,0.000122654237703913
+"126",34,"Formosa",1,2021,"consolidado","Test_embarazo",2804,"Test de embarazo",326120,0.00859806206304428
+"127",38,"Jujuy",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",24040,"Pastilla combinada",428702,0.0560762487695415
+"128",38,"Jujuy",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",2741,"Pastilla combinada",428702,0.00639371871369856
+"129",38,"Jujuy",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",2561,"Minipildora",428702,0.00597384663472529
+"130",38,"Jujuy",1,2021,"consolidado","Desogestrel(comp:0.075mg)",4412,"Minipildora",428702,0.0102915311801671
+"131",38,"Jujuy",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",8150,"Anticonceptivo inyectable",428702,0.0190108746868454
+"132",38,"Jujuy",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",14850,"Anticonceptivo inyectable",428702,0.034639446515295
+"133",38,"Jujuy",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",428702,0.00233262266096263
+"134",38,"Jujuy",1,2021,"consolidado","DIUM(385mm)",500,"DIU",428702,0.00116631133048131
+"135",38,"Jujuy",1,2021,"consolidado","Levonorgestrel(52mg)",0,"Sist. de liberación intrauterina",428702,0
+"136",38,"Jujuy",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",428702,0
+"137",38,"Jujuy",1,2021,"consolidado","Condon_latex",131472,"Preservativo",428702,0.306674566482078
+"138",38,"Jujuy",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",2693,"Pastilla del día después",428702,0.00628175282597235
+"139",38,"Jujuy",1,2021,"consolidado","Misoprostol(200mcg)",680,"Tratamiento abortivo",428702,0.00158618340945459
+"140",38,"Jujuy",1,2021,"consolidado","Test_embarazo",3799,"Test de embarazo",428702,0.00886163348899702
+"141",42,"La Pampa",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",10526,"Pastilla combinada",203422,0.0517446490546745
+"142",42,"La Pampa",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",1360,"Pastilla combinada",203422,0.00668560922614073
+"143",42,"La Pampa",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",940,"Minipildora",203422,0.00462093578865609
+"144",42,"La Pampa",1,2021,"consolidado","Desogestrel(comp:0.075mg)",1508,"Minipildora",203422,0.00741316081839722
+"145",42,"La Pampa",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",1710,"Anticonceptivo inyectable",203422,0.0084061704240446
+"146",42,"La Pampa",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",650,"Anticonceptivo inyectable",203422,0.00319532793896432
+"147",42,"La Pampa",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",203422,0.00245794456843409
+"148",42,"La Pampa",1,2021,"consolidado","DIUM(385mm)",0,"DIU",203422,0
+"149",42,"La Pampa",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",203422,0.000245794456843409
+"150",42,"La Pampa",1,2021,"consolidado","Etonogestrel(68mg)",150,"Implante",203422,0.000737383370530228
+"151",42,"La Pampa",1,2021,"consolidado","Condon_latex",44208,"Preservativo",203422,0.217321626962669
+"152",42,"La Pampa",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1287,"Pastilla del día después",203422,0.00632674931914935
+"153",42,"La Pampa",1,2021,"consolidado","Misoprostol(200mcg)",200,"Tratamiento abortivo",203422,0.000983177827373637
+"154",42,"La Pampa",1,2021,"consolidado","Test_embarazo",1418,"Test de embarazo",203422,0.00697073079607909
+"155",46,"La Rioja",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",13114,"Pastilla combinada",216633,0.0605355601408834
+"156",46,"La Rioja",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",1574,"Pastilla combinada",216633,0.00726574436950972
+"157",46,"La Rioja",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",1324,"Minipildora",216633,0.00611171889785951
+"158",46,"La Rioja",1,2021,"consolidado","Desogestrel(comp:0.075mg)",1916,"Minipildora",216633,0.00884445121472721
+"159",46,"La Rioja",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",3360,"Anticonceptivo inyectable",216633,0.0155101023389788
+"160",46,"La Rioja",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",1750,"Anticonceptivo inyectable",216633,0.00807817830155147
+"161",46,"La Rioja",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",216633,0.00230805094330042
+"162",46,"La Rioja",1,2021,"consolidado","DIUM(385mm)",0,"DIU",216633,0
+"163",46,"La Rioja",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",216633,0.000230805094330042
+"164",46,"La Rioja",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",216633,0
+"165",46,"La Rioja",1,2021,"consolidado","Condon_latex",55440,"Preservativo",216633,0.255916688593151
+"166",46,"La Rioja",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1455,"Pastilla del día después",216633,0.00671642824500422
+"167",46,"La Rioja",1,2021,"consolidado","Misoprostol(200mcg)",90,"Tratamiento abortivo",216633,0.000415449169794076
+"168",46,"La Rioja",1,2021,"consolidado","Test_embarazo",1782,"Test de embarazo",216633,0.0082258935619227
+"169",50,"Mendoza",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",53558,"Pastilla combinada",1114540,0.0480539056471728
+"170",50,"Mendoza",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",0,"Pastilla combinada",1114540,0
+"171",50,"Mendoza",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",6986,"Minipildora",1114540,0.00626805677678684
+"172",50,"Mendoza",1,2021,"consolidado","Desogestrel(comp:0.075mg)",7668,"Minipildora",1114540,0.00687996841746371
+"173",50,"Mendoza",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",11660,"Anticonceptivo inyectable",1114540,0.0104617151470562
+"174",50,"Mendoza",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",3300,"Anticonceptivo inyectable",1114540,0.00296086277746873
+"175",50,"Mendoza",1,2021,"consolidado","DIUT(cobre_380mm)",2000,"DIU",1114540,0.00179446228937499
+"176",50,"Mendoza",1,2021,"consolidado","DIUM(385mm)",1000,"DIU",1114540,0.000897231144687494
+"177",50,"Mendoza",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",1114540,4.48615572343747e-05
+"178",50,"Mendoza",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",1114540,0
+"179",50,"Mendoza",1,2021,"consolidado","Condon_latex",226368,"Preservativo",1114540,0.203104419760619
+"180",50,"Mendoza",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",3319,"Pastilla del día después",1114540,0.00297791016921779
+"181",50,"Mendoza",1,2021,"consolidado","Misoprostol(200mcg)",549,"Tratamiento abortivo",1114540,0.000492579898433434
+"182",50,"Mendoza",1,2021,"consolidado","Test_embarazo",6830,"Test de embarazo",1114540,0.00612808871821559
+"183",54,"Misiones",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",55010,"Pastilla combinada",673982,0.0816193904288245
+"184",54,"Misiones",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",9633,"Pastilla combinada",673982,0.0142926665697303
+"185",54,"Misiones",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",9543,"Minipildora",673982,0.0141591318462511
+"186",54,"Misiones",1,2021,"consolidado","Desogestrel(comp:0.075mg)",7040,"Minipildora",673982,0.0104453828143778
+"187",54,"Misiones",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",11860,"Anticonceptivo inyectable",673982,0.0175969091162672
+"188",54,"Misiones",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",6400,"Anticonceptivo inyectable",673982,0.0094958025585253
+"189",54,"Misiones",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",673982,0.00148371914976958
+"190",54,"Misiones",1,2021,"consolidado","DIUM(385mm)",500,"DIU",673982,0.000741859574884789
+"191",54,"Misiones",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",673982,7.41859574884789e-05
+"192",54,"Misiones",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",673982,0
+"193",54,"Misiones",1,2021,"consolidado","Condon_latex",210384,"Preservativo",673982,0.312150769605123
+"194",54,"Misiones",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",8030,"Pastilla del día después",673982,0.0119142647726497
+"195",54,"Misiones",1,2021,"consolidado","Misoprostol(200mcg)",220,"Tratamiento abortivo",673982,0.000326418212949307
+"196",54,"Misiones",1,2021,"consolidado","Test_embarazo",7399,"Test de embarazo",673982,0.0109780379891451
+"197",58,"Neuquén",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",22752,"Pastilla combinada",368431,0.0617537612198756
+"198",58,"Neuquén",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",0,"Pastilla combinada",368431,0
+"199",58,"Neuquén",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",1765,"Minipildora",368431,0.00479058493992091
+"200",58,"Neuquén",1,2021,"consolidado","Desogestrel(comp:0.075mg)",0,"Minipildora",368431,0
+"201",58,"Neuquén",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",4460,"Anticonceptivo inyectable",368431,0.0121053874402534
+"202",58,"Neuquén",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",4450,"Anticonceptivo inyectable",368431,0.0120782453159479
+"203",58,"Neuquén",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",368431,0.00135710621527504
+"204",58,"Neuquén",1,2021,"consolidado","DIUM(385mm)",500,"DIU",368431,0.00135710621527504
+"205",58,"Neuquén",1,2021,"consolidado","Levonorgestrel(52mg)",0,"Sist. de liberación intrauterina",368431,0
+"206",58,"Neuquén",1,2021,"consolidado","Etonogestrel(68mg)",300,"Implante",368431,0.000814263729165027
+"207",58,"Neuquén",1,2021,"consolidado","Condon_latex",79776,"Preservativo",368431,0.216529010859564
+"208",58,"Neuquén",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1931,"Pastilla del día después",368431,0.00524114420339222
+"209",58,"Neuquén",1,2021,"consolidado","Misoprostol(200mcg)",800,"Tratamiento abortivo",368431,0.00217136994444007
+"210",58,"Neuquén",1,2021,"consolidado","Test_embarazo",2527,"Test de embarazo",368431,0.00685881481200008
+"211",62,"Río Negro",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",30772,"Pastilla combinada",418594,0.0735127593802109
+"212",62,"Río Negro",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",2112,"Pastilla combinada",418594,0.00504546171230357
+"213",62,"Río Negro",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",2400,"Minipildora",418594,0.00573347921852678
+"214",62,"Río Negro",1,2021,"consolidado","Desogestrel(comp:0.075mg)",3540,"Minipildora",418594,0.008456881847327
+"215",62,"Río Negro",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",0,"Anticonceptivo inyectable",418594,0
+"216",62,"Río Negro",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",2850,"Anticonceptivo inyectable",418594,0.00680850657200055
+"217",62,"Río Negro",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",418594,0.00238894967438616
+"218",62,"Río Negro",1,2021,"consolidado","DIUM(385mm)",500,"DIU",418594,0.00119447483719308
+"219",62,"Río Negro",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",418594,0.000119447483719308
+"220",62,"Río Negro",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",418594,0
+"221",62,"Río Negro",1,2021,"consolidado","Condon_latex",115200,"Preservativo",418594,0.275207002489286
+"222",62,"Río Negro",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",2331,"Pastilla del día después",418594,0.00556864169099414
+"223",62,"Río Negro",1,2021,"consolidado","Misoprostol(200mcg)",600,"Tratamiento abortivo",418594,0.0014333698046317
+"224",62,"Río Negro",1,2021,"consolidado","Test_embarazo",3300,"Test de embarazo",418594,0.00788353392547433
+"225",66,"Salta",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",31618,"Pastilla combinada",750903,0.0421066369424546
+"226",66,"Salta",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",3610,"Pastilla combinada",750903,0.00480754504909422
+"227",66,"Salta",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",5088,"Minipildora",750903,0.00677584188636881
+"228",66,"Salta",1,2021,"consolidado","Desogestrel(comp:0.075mg)",5508,"Minipildora",750903,0.00733516845717756
+"229",66,"Salta",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",8130,"Anticonceptivo inyectable",750903,0.0108269643349407
+"230",66,"Salta",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",5850,"Anticonceptivo inyectable",750903,0.00779062009340754
+"231",66,"Salta",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",750903,0.00133172993049701
+"232",66,"Salta",1,2021,"consolidado","DIUM(385mm)",0,"DIU",750903,0
+"233",66,"Salta",1,2021,"consolidado","Levonorgestrel(52mg)",0,"Sist. de liberación intrauterina",750903,0
+"234",66,"Salta",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",750903,0
+"235",66,"Salta",1,2021,"consolidado","Condon_latex",149184,"Preservativo",750903,0.198672797951267
+"236",66,"Salta",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",3011,"Pastilla del día después",750903,0.00400983882072651
+"237",66,"Salta",1,2021,"consolidado","Misoprostol(200mcg)",627,"Tratamiento abortivo",750903,0.000834994666421628
+"238",66,"Salta",1,2021,"consolidado","Test_embarazo",5026,"Test de embarazo",750903,0.006693274630678
+"239",70,"San Juan",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",13232,"Pastilla combinada",426265,0.0310417228719224
+"240",70,"San Juan",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",1391,"Pastilla combinada",426265,0.00326322827349184
+"241",70,"San Juan",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",2157,"Minipildora",426265,0.00506023248448735
+"242",70,"San Juan",1,2021,"consolidado","Desogestrel(comp:0.075mg)",2100,"Minipildora",426265,0.00492651284998768
+"243",70,"San Juan",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",2010,"Anticonceptivo inyectable",426265,0.00471537658498821
+"244",70,"San Juan",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",1400,"Anticonceptivo inyectable",426265,0.00328434189999179
+"245",70,"San Juan",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",426265,0.00234595849999414
+"246",70,"San Juan",1,2021,"consolidado","DIUM(385mm)",0,"DIU",426265,0
+"247",70,"San Juan",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",426265,0.000117297924999707
+"248",70,"San Juan",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",426265,0
+"249",70,"San Juan",1,2021,"consolidado","Condon_latex",61920,"Preservativo",426265,0.145261750319637
+"250",70,"San Juan",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1037,"Pastilla del día después",426265,0.00243275896449392
+"251",70,"San Juan",1,2021,"consolidado","Misoprostol(200mcg)",257,"Tratamiento abortivo",426265,0.000602911334498493
+"252",70,"San Juan",1,2021,"consolidado","Test_embarazo",2249,"Test de embarazo",426265,0.00527606066648681
+"253",74,"San Luis",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",17584,"Pastilla combinada",274175,0.0641342208443512
+"254",74,"San Luis",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",1320,"Pastilla combinada",274175,0.00481444332998997
+"255",74,"San Luis",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",1000,"Minipildora",274175,0.0036473055530227
+"256",74,"San Luis",1,2021,"consolidado","Desogestrel(comp:0.075mg)",1680,"Minipildora",274175,0.00612747332907814
+"257",74,"San Luis",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",2520,"Anticonceptivo inyectable",274175,0.00919120999361722
+"258",74,"San Luis",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",2400,"Anticonceptivo inyectable",274175,0.00875353332725449
+"259",74,"San Luis",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",274175,0.0036473055530227
+"260",74,"San Luis",1,2021,"consolidado","DIUM(385mm)",0,"DIU",274175,0
+"261",74,"San Luis",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",274175,0.000182365277651135
+"262",74,"San Luis",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",274175,0
+"263",74,"San Luis",1,2021,"consolidado","Condon_latex",93600,"Preservativo",274175,0.341387799762925
+"264",74,"San Luis",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1036,"Pastilla del día después",274175,0.00377860855293152
+"265",74,"San Luis",1,2021,"consolidado","Misoprostol(200mcg)",253,"Tratamiento abortivo",274175,0.000922768304914744
+"266",74,"San Luis",1,2021,"consolidado","Test_embarazo",1450,"Test de embarazo",274175,0.00528859305188292
+"267",78,"Santa Cruz",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",6666,"Pastilla combinada",182400,0.0365460526315789
+"268",78,"Santa Cruz",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",1075,"Pastilla combinada",182400,0.00589364035087719
+"269",78,"Santa Cruz",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",869,"Minipildora",182400,0.00476425438596491
+"270",78,"Santa Cruz",1,2021,"consolidado","Desogestrel(comp:0.075mg)",1112,"Minipildora",182400,0.00609649122807018
+"271",78,"Santa Cruz",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",1220,"Anticonceptivo inyectable",182400,0.00668859649122807
+"272",78,"Santa Cruz",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",950,"Anticonceptivo inyectable",182400,0.00520833333333333
+"273",78,"Santa Cruz",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",182400,0.00274122807017544
+"274",78,"Santa Cruz",1,2021,"consolidado","DIUM(385mm)",0,"DIU",182400,0
+"275",78,"Santa Cruz",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",182400,0.000274122807017544
+"276",78,"Santa Cruz",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",182400,0
+"277",78,"Santa Cruz",1,2021,"consolidado","Condon_latex",32976,"Preservativo",182400,0.180789473684211
+"278",78,"Santa Cruz",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",1030,"Pastilla del día después",182400,0.0056469298245614
+"279",78,"Santa Cruz",1,2021,"consolidado","Misoprostol(200mcg)",350,"Tratamiento abortivo",182400,0.00191885964912281
+"280",78,"Santa Cruz",1,2021,"consolidado","Test_embarazo",1083,"Test de embarazo",182400,0.0059375
+"281",82,"Santa Fe",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",101704,"Pastilla combinada",2072165,0.0490810336049494
+"282",82,"Santa Fe",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",9299,"Pastilla combinada",2072165,0.00448757700279659
+"283",82,"Santa Fe",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",11267,"Minipildora",2072165,0.00543730832245502
+"284",82,"Santa Fe",1,2021,"consolidado","Desogestrel(comp:0.075mg)",14616,"Minipildora",2072165,0.00705349236185342
+"285",82,"Santa Fe",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",22920,"Anticonceptivo inyectable",2072165,0.0110608952472414
+"286",82,"Santa Fe",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",12250,"Anticonceptivo inyectable",2072165,0.00591169139523156
+"287",82,"Santa Fe",1,2021,"consolidado","DIUT(cobre_380mm)",2000,"DIU",2072165,0.000965174105343928
+"288",82,"Santa Fe",1,2021,"consolidado","DIUM(385mm)",1000,"DIU",2072165,0.000482587052671964
+"289",82,"Santa Fe",1,2021,"consolidado","Levonorgestrel(52mg)",0,"Sist. de liberación intrauterina",2072165,0
+"290",82,"Santa Fe",1,2021,"consolidado","Etonogestrel(68mg)",200,"Implante",2072165,9.65174105343928e-05
+"291",82,"Santa Fe",1,2021,"consolidado","Condon_latex",417312,"Preservativo",2072165,0.201389368124643
+"292",82,"Santa Fe",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",8356,"Pastilla del día después",2072165,0.00403249741212693
+"293",82,"Santa Fe",1,2021,"consolidado","Misoprostol(200mcg)",0,"Tratamiento abortivo",2072165,0
+"294",82,"Santa Fe",1,2021,"consolidado","Test_embarazo",12767,"Test de embarazo",2072165,0.00616118890146296
+"295",86,"Santiago del Estero",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",54260,"Pastilla combinada",530403,0.102299572212073
+"296",86,"Santiago del Estero",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",4759,"Pastilla combinada",530403,0.00897242285582849
+"297",86,"Santiago del Estero",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",5295,"Minipildora",530403,0.00998297520941624
+"298",86,"Santiago del Estero",1,2021,"consolidado","Desogestrel(comp:0.075mg)",7248,"Minipildora",530403,0.0136650810798581
+"299",86,"Santiago del Estero",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",12610,"Anticonceptivo inyectable",530403,0.0237743753334729
+"300",86,"Santiago del Estero",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",1900,"Anticonceptivo inyectable",530403,0.00358218185040432
+"301",86,"Santiago del Estero",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",530403,0.000942679434316925
+"302",86,"Santiago del Estero",1,2021,"consolidado","DIUM(385mm)",0,"DIU",530403,0
+"303",86,"Santiago del Estero",1,2021,"consolidado","Levonorgestrel(52mg)",0,"Sist. de liberación intrauterina",530403,0
+"304",86,"Santiago del Estero",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",530403,0
+"305",86,"Santiago del Estero",1,2021,"consolidado","Condon_latex",200016,"Preservativo",530403,0.377101939468668
+"306",86,"Santiago del Estero",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",3951,"Pastilla del día después",530403,0.00744905288997234
+"307",86,"Santiago del Estero",1,2021,"consolidado","Misoprostol(200mcg)",363,"Tratamiento abortivo",530403,0.000684385269314088
+"308",86,"Santiago del Estero",1,2021,"consolidado","Test_embarazo",5839,"Test de embarazo",530403,0.0110086104339531
+"309",94,"Tierra del Fuego",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",4950,"Pastilla combinada",87504,0.0565688425671969
+"310",94,"Tierra del Fuego",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",805,"Pastilla combinada",87504,0.00919957944779667
+"311",94,"Tierra del Fuego",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",647,"Minipildora",87504,0.00739394770524776
+"312",94,"Tierra del Fuego",1,2021,"consolidado","Desogestrel(comp:0.075mg)",688,"Minipildora",87504,0.0078624977143902
+"313",94,"Tierra del Fuego",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",1070,"Anticonceptivo inyectable",87504,0.0122280124337173
+"314",94,"Tierra del Fuego",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",300,"Anticonceptivo inyectable",87504,0.00342841470104224
+"315",94,"Tierra del Fuego",1,2021,"consolidado","DIUT(cobre_380mm)",500,"DIU",87504,0.00571402450173706
+"316",94,"Tierra del Fuego",1,2021,"consolidado","DIUM(385mm)",0,"DIU",87504,0
+"317",94,"Tierra del Fuego",1,2021,"consolidado","Levonorgestrel(52mg)",50,"Sist. de liberación intrauterina",87504,0.000571402450173706
+"318",94,"Tierra del Fuego",1,2021,"consolidado","Etonogestrel(68mg)",50,"Implante",87504,0.000571402450173706
+"319",94,"Tierra del Fuego",1,2021,"consolidado","Condon_latex",27648,"Preservativo",87504,0.315962698848053
+"320",94,"Tierra del Fuego",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",488,"Pastilla del día después",87504,0.00557688791369537
+"321",94,"Tierra del Fuego",1,2021,"consolidado","Misoprostol(200mcg)",40,"Tratamiento abortivo",87504,0.000457121960138965
+"322",94,"Tierra del Fuego",1,2021,"consolidado","Test_embarazo",827,"Test de embarazo",87504,0.0094509965258731
+"323",90,"Tucumán",1,2021,"consolidado","Etinilestradiol+levonorgestrel(comp:0.03-0.15mg)",51956,"Pastilla combinada",924258,0.0562137411848207
+"324",90,"Tucumán",1,2021,"consolidado","Etinilestradiol+gestodeno(comp:0.02-0.075mg)",4716,"Pastilla combinada",924258,0.00510247138785923
+"325",90,"Tucumán",1,2021,"consolidado","Levonorgestrel(comp:0.03mg)",6847,"Minipildora",924258,0.00740810466341649
+"326",90,"Tucumán",1,2021,"consolidado","Desogestrel(comp:0.075mg)",7580,"Minipildora",924258,0.00820117326547349
+"327",90,"Tucumán",1,2021,"consolidado","Noretisterona+estradiol(amp:50-5mg)",12440,"Anticonceptivo inyectable",924258,0.0134594453063971
+"328",90,"Tucumán",1,2021,"consolidado","Medroxiprogesterona(amp:150mg/ml)",2250,"Anticonceptivo inyectable",924258,0.00243438520413131
+"329",90,"Tucumán",1,2021,"consolidado","DIUT(cobre_380mm)",1000,"DIU",924258,0.00108194897961392
+"330",90,"Tucumán",1,2021,"consolidado","DIUM(385mm)",500,"DIU",924258,0.000540974489806959
+"331",90,"Tucumán",1,2021,"consolidado","Levonorgestrel(52mg)",0,"Sist. de liberación intrauterina",924258,0
+"332",90,"Tucumán",1,2021,"consolidado","Etonogestrel(68mg)",0,"Implante",924258,0
+"333",90,"Tucumán",1,2021,"consolidado","Condon_latex",207504,"Preservativo",924258,0.224508741065806
+"334",90,"Tucumán",1,2021,"consolidado","Levonorgestrel(comp:1.5mg)",4213,"Pastilla del día después",924258,0.00455825105111343
+"335",90,"Tucumán",1,2021,"consolidado","Misoprostol(200mcg)",883,"Tratamiento abortivo",924258,0.000955360948999089
+"336",90,"Tucumán",1,2021,"consolidado","Test_embarazo",6487,"Test de embarazo",924258,0.00701860303075548
+"337",6,"Buenos Aires",2,2021,"consolidado","Etonogestrel(68mg)",2050,"Implante",10077275,0.000203428010052321
+"338",10,"Catamarca",2,2021,"consolidado","Etonogestrel(68mg)",200,"Implante",231404,0.000864289294912793
+"339",22,"Chaco",2,2021,"consolidado","Etonogestrel(68mg)",400,"Implante",661406,0.000604772257886986
+"340",18,"Corrientes",2,2021,"consolidado","Etonogestrel(68mg)",400,"Implante",623110,0.000641941230280368
+"341",30,"Entre Ríos",2,2021,"consolidado","Etonogestrel(68mg)",550,"Implante",784742,0.000700867291415523
+"342",34,"Formosa",2,2021,"consolidado","Etonogestrel(68mg)",400,"Implante",326120,0.00122654237703913
+"343",38,"Jujuy",2,2021,"consolidado","Etonogestrel(68mg)",350,"Implante",428702,0.000816417931336919
+"344",46,"La Rioja",2,2021,"consolidado","Etonogestrel(68mg)",250,"Implante",216633,0.00115402547165021
+"345",54,"Misiones",2,2021,"consolidado","Etonogestrel(68mg)",500,"Implante",673982,0.000741859574884789
+"346",66,"Salta",2,2021,"consolidado","Etonogestrel(68mg)",700,"Implante",750903,0.00093221095134791
+"347",86,"Santiago del Estero",2,2021,"consolidado","Etonogestrel(68mg)",500,"Implante",530403,0.000942679434316925
+"348",90,"Tucumán",2,2021,"consolidado","Etonogestrel(68mg)",650,"Implante",924258,0.000703266836749046
